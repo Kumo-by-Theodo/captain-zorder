@@ -6,7 +6,10 @@
       "source.fixAll.eslint": true,
       "source.fixAll.stylelint": true
     },
-    "stylelint.validate": ["typescript", "typescriptreact"],
+    "stylelint.validate": [
+      "typescript",
+      "typescriptreact"
+    ],
     "stylelint.customSyntax": "@stylelint/postcss-css-in-js",
     "search.exclude": {
       "**/coverage": true,
@@ -39,8 +42,13 @@
     },
     "typescript.tsdk": "node_modules/typescript/lib",
     "vitest.commandLine": "pnpm vitest",
-    "vitest.disabledWorkspaceFolders": ["captain-zorder root"],
-    "cSpell.words": ["esbuild", "swarmion"]
+    "vitest.disabledWorkspaceFolders": [
+      "captain-zorder root"
+    ],
+    "cSpell.words": [
+      "esbuild",
+      "swarmion"
+    ]
   },
   "extensions": {
     "recommendations": [
@@ -64,6 +72,10 @@
     {
       "path": "packages/serverless-configuration",
       "name": "serverless configuration [library]"
+    },
+    {
+      "path": "services/atlas-example",
+      "name": "atlas example [service]"
     }
   ]
 }
