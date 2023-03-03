@@ -3,7 +3,7 @@ import { RestApi } from 'aws-cdk-lib/aws-apigateway';
 import { Vpc } from 'aws-cdk-lib/aws-ec2';
 import { Construct } from 'constructs';
 
-import { Health } from 'functions';
+import { ConnectAtlas, Health } from 'functions';
 
 interface AtlasExampleProps {
   stage: string;
@@ -29,5 +29,6 @@ export class AtlasExampleStack extends Stack {
     });
 
     new Health(this, 'Health', { restApi: atlasExampleApi, vpc });
+    new ConnectAtlas(this, 'ConnectAtlas', { restApi: atlasExampleApi });
   }
 }
