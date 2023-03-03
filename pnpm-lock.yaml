@@ -86,6 +86,7 @@ importers:
       '@vitest/coverage-c8': ^0.28.5
       aws-cdk: ^2.66.1
       aws-cdk-lib: ^2.66.1
+      aws4: ^1.12.0
       constructs: ^10.1.259
       dependency-cruiser: ^12.10.0
       dotenv: ^16.0.3
@@ -101,6 +102,7 @@ importers:
       '@captain-zorder/serverless-configuration': link:../../packages/serverless-configuration
       '@swarmion/serverless-contracts': 0.25.0_cmbvvntbojnw4kirok4azgwypm
       '@swarmion/serverless-helpers': 0.25.0_niylq7b5s6eqxfl2fyibkbfnqq
+      aws4: 1.12.0
       mongodb: 5.1.0
     devDependencies:
       '@types/node': 18.14.1
@@ -2547,6 +2549,10 @@ packages:
       uuid: 8.0.0
       xml2js: 0.4.19
     dev: true
+
+  /aws4/1.12.0:
+    resolution: {integrity: sha512-NmWvPnx0F1SfrQbYwOi7OeaNGokp9XhzNioJ/CSBs8Qa4vxug81mhJEAVZwxXuBmYB5KDRfMq/F3RR0BIU7sWg==}
+    dev: false
 
   /axios/1.2.2:
     resolution: {integrity: sha512-bz/J4gS2S3I7mpN/YZfGFTqhXTYzRho8Ay38w2otuuDR322KzFIWm/4W2K6gIwvWaws5n+mnb7D1lN9uD+QH6Q==}
