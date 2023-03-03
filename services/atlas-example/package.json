@@ -25,7 +25,8 @@
   "dependencies": {
     "@captain-zorder/serverless-configuration": "workspace:^",
     "@swarmion/serverless-contracts": "^0.25.0",
-    "@swarmion/serverless-helpers": "^0.25.0"
+    "@swarmion/serverless-helpers": "^0.25.0",
+    "mongodb": "^5.1.0"
   },
   "devDependencies": {
     "@types/node": "^18.14.1",
