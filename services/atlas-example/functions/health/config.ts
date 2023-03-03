@@ -1,5 +1,6 @@
 import { getCdkHandlerPath } from '@swarmion/serverless-helpers';
 import { LambdaIntegration, RestApi } from 'aws-cdk-lib/aws-apigateway';
+import { Vpc } from 'aws-cdk-lib/aws-ec2';
 import { Architecture, Runtime } from 'aws-cdk-lib/aws-lambda';
 import { NodejsFunction } from 'aws-cdk-lib/aws-lambda-nodejs';
 import { Construct } from 'constructs';
@@ -8,12 +9,12 @@ import { sharedCdkEsbuildConfig } from '@captain-zorder/serverless-configuration
 
 import { healthContract } from 'contracts/healthContract';
 
-type HealthProps = { restApi: RestApi };
+type HealthProps = { restApi: RestApi; vpc: Vpc };
 
 export class Health extends Construct {
   public healthFunction: NodejsFunction;
 
-  constructor(scope: Construct, id: string, { restApi }: HealthProps) {
+  constructor(scope: Construct, id: string, { restApi, vpc }: HealthProps) {
     super(scope, id);
 
     this.healthFunction = new NodejsFunction(this, 'Lambda', {
@@ -23,6 +24,7 @@ export class Health extends Construct {
       architecture: Architecture.ARM_64,
       awsSdkConnectionReuse: true,
       bundling: sharedCdkEsbuildConfig,
+      vpc,
     });
 
     restApi.root
