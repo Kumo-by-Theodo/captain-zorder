@@ -1,0 +1,51 @@
+{
+  "name": "@captain-zorder/zorder-dynamodb",
+  "private": true,
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "bootstrap": "cdk bootstrap --qualifier qdalztgrd8",
+    "bootstrap-production": "cdk bootstrap --context stage=production --qualifier qdalztgrd8",
+    "bootstrap-staging": "cdk bootstrap --context stage=staging --qualifier qdalztgrd8",
+    "deploy": "cdk deploy",
+    "deploy-production": "cdk deploy --context stage=production",
+    "deploy-staging": "cdk deploy --context stage=staging",
+    "destroy": "cdk destroy",
+    "destroy-production": "cdk destroy --context stage=production",
+    "destroy-staging": "cdk destroy --context stage=staging",
+    "lint-fix": "pnpm linter-base-config --fix",
+    "lint-fix-all": "pnpm lint-fix .",
+    "linter-base-config": "eslint --ext=js,ts",
+    "test": "nx run test-linter && nx run test-type && nx run test-unit && nx run test-circular",
+    "test-circular": "pnpm depcruise --validate .dependency-cruiser.js .",
+    "test-linter": "pnpm linter-base-config .",
+    "test-type": "tsc",
+    "test-unit": "vitest run --coverage --passWithNoTests"
+  },
+  "dependencies": {
+    "@aws-sdk/lib-dynamodb": "^3.303.0",
+    "@captain-zorder/serverless-configuration": "workspace:^",
+    "@swarmion/serverless-contracts": "^0.25.0",
+    "@swarmion/serverless-helpers": "^0.25.0",
+    "lodash": "^4.17.21",
+    "p-queue": "^6.6.2"
+  },
+  "devDependencies": {
+    "@aws-sdk/client-dynamodb": "^3.272.0",
+    "@types/lodash": "^4.14.191",
+    "@types/node": "^18.13.0",
+    "@vitest/coverage-c8": "^0.28.5",
+    "aws-cdk": "^2.65.0",
+    "aws-cdk-lib": "^2.65.0",
+    "constructs": "^10.1.253",
+    "dependency-cruiser": "^12.9.0",
+    "dotenv": "^16.0.3",
+    "esbuild": "^0.17.8",
+    "eslint": "^8.34.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.2",
+    "vite-tsconfig-paths": "^4.0.5",
+    "vitest": "^0.28.5"
+  }
+}

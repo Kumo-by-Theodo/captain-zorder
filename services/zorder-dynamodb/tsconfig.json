@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.options.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "emitDeclarationOnly": false,
+    "noEmit": true,
+    "module": "ESNext"
+  },
+  "references": [
+    {
+      "path": "../../packages/serverless-configuration/tsconfig.build.json"
+    }
+  ],
+  "exclude": ["./cdk.out"],
+  "include": ["./**/*.ts"]
+}
