@@ -1,4 +1,9 @@
-import { coordinatePadding } from 'absoluteBanger';
+import { getPaddingFromPrecision } from 'utilsBanger';
+
+const decimalPlaces = 3;
+export const floatingPointPrecision = 10 ** decimalPlaces;
+
+const coordinatePadding = getPaddingFromPrecision(floatingPointPrecision);
 
 const TIMESTAMP_SIZE = 36;
 const timestampHexSize = Math.ceil(TIMESTAMP_SIZE / 4);

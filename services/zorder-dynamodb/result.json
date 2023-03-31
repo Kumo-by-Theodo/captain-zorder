@@ -1,0 +1,322 @@
+[
+  {
+    "decimalPlaces": 0,
+    "stepsOutside": 3,
+    "elapsedTime": 228,
+    "totalCapacityUnit": 3,
+    "foundAll": true,
+    "numberOfQueries": 1,
+    "totalNumberOfItems": 149,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 0,
+    "stepsOutside": 6,
+    "elapsedTime": 367,
+    "totalCapacityUnit": 3,
+    "foundAll": true,
+    "numberOfQueries": 1,
+    "totalNumberOfItems": 149,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 0,
+    "stepsOutside": 10,
+    "elapsedTime": 128,
+    "totalCapacityUnit": 3,
+    "foundAll": true,
+    "numberOfQueries": 1,
+    "totalNumberOfItems": 149,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 0,
+    "stepsOutside": 30,
+    "elapsedTime": 177,
+    "totalCapacityUnit": 3,
+    "foundAll": true,
+    "numberOfQueries": 1,
+    "totalNumberOfItems": 149,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 0,
+    "stepsOutside": 60,
+    "elapsedTime": 343,
+    "totalCapacityUnit": 3,
+    "foundAll": true,
+    "numberOfQueries": 1,
+    "totalNumberOfItems": 149,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 0,
+    "stepsOutside": 100,
+    "elapsedTime": 214,
+    "totalCapacityUnit": 3,
+    "foundAll": true,
+    "numberOfQueries": 1,
+    "totalNumberOfItems": 149,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 0,
+    "stepsOutside": 200,
+    "elapsedTime": 231,
+    "totalCapacityUnit": 3,
+    "foundAll": true,
+    "numberOfQueries": 1,
+    "totalNumberOfItems": 149,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 0,
+    "stepsOutside": 500,
+    "elapsedTime": 97,
+    "totalCapacityUnit": 3,
+    "foundAll": true,
+    "numberOfQueries": 1,
+    "totalNumberOfItems": 149,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 1,
+    "stepsOutside": 3,
+    "elapsedTime": 117,
+    "totalCapacityUnit": 5.5,
+    "foundAll": true,
+    "numberOfQueries": 11,
+    "totalNumberOfItems": 45,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 1,
+    "stepsOutside": 6,
+    "elapsedTime": 36,
+    "totalCapacityUnit": 5.5,
+    "foundAll": true,
+    "numberOfQueries": 11,
+    "totalNumberOfItems": 45,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 1,
+    "stepsOutside": 10,
+    "elapsedTime": 37,
+    "totalCapacityUnit": 4,
+    "foundAll": true,
+    "numberOfQueries": 8,
+    "totalNumberOfItems": 47,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 1,
+    "stepsOutside": 30,
+    "elapsedTime": 36,
+    "totalCapacityUnit": 2.5,
+    "foundAll": true,
+    "numberOfQueries": 5,
+    "totalNumberOfItems": 47,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 1,
+    "stepsOutside": 60,
+    "elapsedTime": 31,
+    "totalCapacityUnit": 2,
+    "foundAll": true,
+    "numberOfQueries": 3,
+    "totalNumberOfItems": 62,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 1,
+    "stepsOutside": 100,
+    "elapsedTime": 128,
+    "totalCapacityUnit": 2.5,
+    "foundAll": true,
+    "numberOfQueries": 1,
+    "totalNumberOfItems": 137,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 1,
+    "stepsOutside": 200,
+    "elapsedTime": 42,
+    "totalCapacityUnit": 2.5,
+    "foundAll": true,
+    "numberOfQueries": 1,
+    "totalNumberOfItems": 137,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 1,
+    "stepsOutside": 500,
+    "elapsedTime": 39,
+    "totalCapacityUnit": 2.5,
+    "foundAll": true,
+    "numberOfQueries": 1,
+    "totalNumberOfItems": 137,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 2,
+    "stepsOutside": 3,
+    "elapsedTime": 565,
+    "totalCapacityUnit": 180.5,
+    "foundAll": true,
+    "numberOfQueries": 361,
+    "totalNumberOfItems": 34,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 2,
+    "stepsOutside": 6,
+    "elapsedTime": 544,
+    "totalCapacityUnit": 128.5,
+    "foundAll": true,
+    "numberOfQueries": 257,
+    "totalNumberOfItems": 34,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 2,
+    "stepsOutside": 10,
+    "elapsedTime": 644,
+    "totalCapacityUnit": 34.5,
+    "foundAll": true,
+    "numberOfQueries": 69,
+    "totalNumberOfItems": 36,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 2,
+    "stepsOutside": 30,
+    "elapsedTime": 492,
+    "totalCapacityUnit": 26.5,
+    "foundAll": true,
+    "numberOfQueries": 53,
+    "totalNumberOfItems": 36,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 2,
+    "stepsOutside": 60,
+    "elapsedTime": 518,
+    "totalCapacityUnit": 26.5,
+    "foundAll": true,
+    "numberOfQueries": 53,
+    "totalNumberOfItems": 36,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 2,
+    "stepsOutside": 100,
+    "elapsedTime": 536,
+    "totalCapacityUnit": 10,
+    "foundAll": true,
+    "numberOfQueries": 20,
+    "totalNumberOfItems": 38,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 2,
+    "stepsOutside": 200,
+    "elapsedTime": 524,
+    "totalCapacityUnit": 10,
+    "foundAll": true,
+    "numberOfQueries": 20,
+    "totalNumberOfItems": 38,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 2,
+    "stepsOutside": 500,
+    "elapsedTime": 498,
+    "totalCapacityUnit": 5.5,
+    "foundAll": true,
+    "numberOfQueries": 11,
+    "totalNumberOfItems": 38,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 3,
+    "stepsOutside": 3,
+    "elapsedTime": 9792,
+    "totalCapacityUnit": 428.5,
+    "foundAll": true,
+    "numberOfQueries": 857,
+    "totalNumberOfItems": 34,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 3,
+    "stepsOutside": 6,
+    "elapsedTime": 10070,
+    "totalCapacityUnit": 428.5,
+    "foundAll": true,
+    "numberOfQueries": 857,
+    "totalNumberOfItems": 34,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 3,
+    "stepsOutside": 10,
+    "elapsedTime": 10003,
+    "totalCapacityUnit": 428.5,
+    "foundAll": true,
+    "numberOfQueries": 857,
+    "totalNumberOfItems": 34,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 3,
+    "stepsOutside": 30,
+    "elapsedTime": 9369,
+    "totalCapacityUnit": 211.5,
+    "foundAll": true,
+    "numberOfQueries": 423,
+    "totalNumberOfItems": 34,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 3,
+    "stepsOutside": 60,
+    "elapsedTime": 9332,
+    "totalCapacityUnit": 211.5,
+    "foundAll": true,
+    "numberOfQueries": 423,
+    "totalNumberOfItems": 34,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 3,
+    "stepsOutside": 100,
+    "elapsedTime": 9449,
+    "totalCapacityUnit": 180.5,
+    "foundAll": true,
+    "numberOfQueries": 361,
+    "totalNumberOfItems": 34,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 3,
+    "stepsOutside": 200,
+    "elapsedTime": 10228,
+    "totalCapacityUnit": 180.5,
+    "foundAll": true,
+    "numberOfQueries": 361,
+    "totalNumberOfItems": 34,
+    "numberOfItemsInsideTheBox": 34
+  },
+  {
+    "decimalPlaces": 3,
+    "stepsOutside": 500,
+    "elapsedTime": 9939,
+    "totalCapacityUnit": 128.5,
+    "foundAll": true,
+    "numberOfQueries": 257,
+    "totalNumberOfItems": 34,
+    "numberOfItemsInsideTheBox": 34
+  }
+]
